@@ -69,5 +69,3 @@ def root():
         }
     }
 
-
-# Run with: uvicorn day5_s2_fastapi_server:app --reload --port 8000
