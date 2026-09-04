@@ -10,7 +10,7 @@ load_dotenv()
 
 app = FastAPI(title="Agentic AI Capstone API", version="1.0")
 
-# --- Simple in-memory session store ---
+# --- Simple in-memory session store --- 
 # Maps session_id -> user_id. For anything beyond a demo, replace with
 # Redis or a database - in-memory sessions vanish on server restart and
 # don't work across multiple server instances.
