@@ -6,7 +6,7 @@ from groq import Groq
 load_dotenv()
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
-# Two tiers - swap these for whatever's live on your Groq account
+# Two tiers - swap these for whatever's live on Groq account
 # (run models.list() from earlier if either of these 404s)
 SMALL_MODEL = "openai/gpt-oss-20b"
 LARGE_MODEL = "openai/gpt-oss-120b"
