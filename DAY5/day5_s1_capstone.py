@@ -226,7 +226,7 @@ def run_capstone_agent(user_id, user_message, max_iterations=6, auto_approve_dan
 
 # =========================================================
 # 5. SELF-TEST: subset of the Day 4 S3 eval suite, run against
-#    this exact capstone agent, with LLM-as-judge grading
+#    capstone agent, with LLM-as-judge grading
 # =========================================================
 
 CAPSTONE_TEST_CASES = [
