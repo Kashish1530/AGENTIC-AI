@@ -9,10 +9,10 @@ MODEL = "openai/gpt-oss-120b"
 
 TASK = "the current state of agentic AI adoption in enterprises"
 
-# Groq pricing for openai/gpt-oss-120b (check console.groq.com/docs/pricing
-# for the current rate - update these if they've changed)
-PRICE_PER_M_INPUT = 0.15   # $ per million input tokens (placeholder - verify)
-PRICE_PER_M_OUTPUT = 0.75  # $ per million output tokens (placeholder - verify)
+# Groq pricing for openai/gpt-oss-120b check from console.groq.com/docs/pricing
+# for the current rate 
+PRICE_PER_M_INPUT = 0.15   # $ per million input tokens 
+PRICE_PER_M_OUTPUT = 0.75  # $ per million output tokens
 
 
 def mock_web_search(query: str) -> str:
