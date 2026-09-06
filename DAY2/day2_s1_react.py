@@ -23,8 +23,7 @@ AVAILABLE_TOOLS = {
 }
 
 # ---------- The ReAct system prompt ----------
-# We are NOT using tools=[...] here. Instead we teach the model, via plain
-# text instructions, to output a strict format we can parse ourselves.
+
 SYSTEM_PROMPT = """You are a ReAct agent.
 
 You MUST follow this exact format.
